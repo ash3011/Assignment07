@@ -55,3 +55,4 @@ jobs:
       - name: Using code deploy
         run: |
           aws deploy create-deployment --application-name csye6225webapp --deployment-config-name CodeDeployDefault.AllAtOnce --deployment-group-name csye6225-webapp-deployment --file-exists-behavior OVERWRITE --s3-location bucket=codedeploy.demo.aishwaryasawant.me,key=csye6225-webapplication-${{ github.sha }}.zip,bundleType=zip
+
