@@ -23,10 +23,10 @@ jobs:
         run: |
           echo "PWD: $(pwd)"
           cd ../
-          zip -r webservice.zip webservice
+          zip -r webservice.zip Assignment07
           ls -l
           echo "PWD: $(pwd)"
-          cd webservice
+          cd Assignment07
           echo "mkdir"; mkdir appDir
           cp ../webservice.zip appDir
           ls -l appDir
