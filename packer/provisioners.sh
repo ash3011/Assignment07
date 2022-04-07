@@ -37,6 +37,6 @@ cp webservice.zip /home/ec2-user/
 cd /home/ec2-user/
 unzip -q webservice.zip
 ls -ltr
-chown ec2-user:ec2-user /home/ec2-user/webservice
-cd webservice 
+chown ec2-user:ec2-user /home/ec2-user/Assignment07
+cd Assignment07 
 ls -ltr 
